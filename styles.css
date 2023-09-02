@@ -692,20 +692,30 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 .categories {
     display:flex;
-    position:absolute;
-    /* background-color: gray; */
-    height: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:relative;
+    /* background-color:grey; */
+    height: 1150px;
     width: 1519px;
-    padding: 15px;
+    padding-top: 10px;
+}
+.ffc{
+    /* background-color: #f8353e;  */
+    display: flex; 
+    flex-direction: row; 
+    height: 515px;
+    margin-left: 50px;
+    flex-wrap: wrap;
 }
 /* JEANS */
 .item-1 {
     /* background-color: blueviolet; */
     height: 515px;
-    width: 320px;
-    margin-right: 15px;
+    width: 280px;
     position: relative;
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 25px;
     overflow: hidden;
 }
 .item-1:hover .detail-1 {
@@ -764,7 +774,6 @@ nav ul li:hover .sub-menu-7 ul li {
      
 } 
 .blue {
-    display: fixed;
     border:1px;
     background-image: url(images/blue\ jean.png);
     background-size: cover;
@@ -831,15 +840,14 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 /* JURKINS */
 .item-2 {
-    /* background-color: blueviolet; */
+    /* background-color:#2879fe; */
     height: 515px;
-    width: 320px;
+    width: 280px;
     position: relative;
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 25px;
     overflow: hidden;
-    margin-right: 15px;
 }
-
 .item-2:hover .detail-2 {
     top: -67px;
 }
@@ -936,11 +944,12 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 /* SHIRTS */
 .item-3 {
-    /* background-color: blueviolet; */
+    /* background-color:aqua; */
     height: 515px;
-    width: 320px;
+    width: 280px;
     position: relative;
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 25px;
     overflow: hidden;
 }
 
@@ -1039,11 +1048,12 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 /* TSHIRT */
 .item-4 {
-    /* background-color: blueviolet; */
+    /* background-color:aquamarine; */
     height: 515px;
-    width: 320px;
+    width: 280px;
     position: relative;
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 25px;
     overflow: hidden;
 }
 
@@ -1131,6 +1141,458 @@ nav ul li:hover .sub-menu-7 ul li {
     border-radius: 6px;    
 }
 .cart-4{
+    border: none;
+    border-radius: 6px;
+    background-color: #2879fe;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    padding:3px 16px 9px;
+}
+.sfc{
+    /* background-color:chocolate; */
+    display: flex; 
+    flex-direction: row; 
+    height: 515px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+/* SLIM SHIRT */
+.item-5 {
+    /* background-color:aquamarine; */
+    height: 515px;
+    width: 280px;
+    position: relative;
+    padding-top: 15px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+.item-5:hover .detail-5 {
+    top: -67px;
+}
+
+.slim {
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+
+.slim img {
+    height: 350px;
+    width: 280px;
+}
+
+.detail-5 {
+    background-color: #fff;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+.word-5{
+    height: 80px;
+    text-align: center;
+}
+.gap {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: hind, sans-serif;
+    line-height: 19px;
+}
+.gap:hover {
+    color: #2879fe;
+}
+.pre{
+    font: 14px hind,sans-serif; 
+    color: #191919; 
+    text-align: center; 
+    font-weight: 400; 
+    line-height: 22px; 
+    text-decoration: none;
+}
+.pre:hover{
+    color: #2879fe;
+}
+.buttons-5{
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 280px;
+    padding-top:3px ; 
+     
+} 
+.slim-1 {
+    display: fixed;
+    border:1px;
+    background-image: url(images/Slimshirt.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.slim-1:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;   
+}
+.slim-2 {
+    border:1px;
+    background-image: url(images/Slimshirt1.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.slim-2:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;    
+}
+.cart-5{
+    border: none;
+    border-radius: 6px;
+    background-color: #2879fe;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    padding:3px 16px 9px;
+}
+/* SNEAKERS */
+.item-6 {
+    /* background-color:#f8353e; */
+    height: 515px;
+    width: 280px;
+    position: relative;
+    padding-top: 15px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.item-6:hover .detail-6 {
+    top: -67px;
+}
+
+.sneakers {
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+
+.sneakers img {
+    height: 350px;
+    width: 280px;
+}
+
+.detail-6 {
+    background-color: #fff;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+.word-6{
+    height: 80px;
+    text-align: center;
+}
+.gap {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: hind, sans-serif;
+    line-height: 19px;
+}
+.gap:hover {
+    color: #2879fe;
+}
+.pre{
+    font: 14px hind,sans-serif; 
+    color: #191919; 
+    text-align: center; 
+    font-weight: 400; 
+    line-height: 22px; 
+    text-decoration: none;
+}
+.pre:hover{
+    color: #2879fe;
+}
+.buttons-6{ 
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 280px;
+    padding-top:3px ; 
+     
+} 
+.sn1 {
+    display: fixed;
+    border:1px;
+    background-image: url(images/sneak1.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sn1:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;   
+}
+.sn2 {
+    border:1px;
+    background-image: url(images/sneak2.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sn2:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;    
+}
+.sn3 {
+    border:1px;
+    background-image: url(images/sneak3.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sn3:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;  
+}
+.cart-6{
+    border: none;
+    border-radius: 6px;
+    background-color: #2879fe;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    padding:3px 16px 9px;
+}
+/* SCARF */
+.item-7 {
+    /* background-color:bisque; */
+    height: 515px;
+    width: 280px;
+    position: relative;
+    padding-top: 15px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.item-7:hover .detail-7 {
+    top: -67px;
+}
+
+.scarfs {
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+
+.scarfs img {
+    height: 350px;
+    width: 280px;
+}
+
+.detail-7 {
+    background-color: #fff;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+.word-7{
+    height: 80px;
+    text-align: center;
+}
+.gap {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: hind, sans-serif;
+    line-height: 19px;
+}
+.gap:hover {
+    color: #2879fe;
+}
+.pre{
+    font: 14px hind,sans-serif; 
+    color: #191919; 
+    text-align: center; 
+    font-weight: 400; 
+    line-height: 22px; 
+    text-decoration: none;
+}
+.pre:hover{
+    color: #2879fe;
+}
+.buttons-7{ 
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 280px;
+    padding-top:3px ; 
+     
+} 
+.sc {
+    display: fixed;
+    border:1px;
+    background-image: url(images/scarf.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sc:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;   
+}
+.sc1 {
+    border:1px;
+    background-image: url(images/scarf1.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sc1:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;    
+}
+.sc2 {
+    border:1px;
+    background-image: url(images/scarf2.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.sc2:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;  
+}
+.cart-7{
+    border: none;
+    border-radius: 6px;
+    background-color: #2879fe;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    padding:3px 16px 9px;
+}
+/* COTTON SHIRT */
+.item-8 {
+    /* background-color:chartreuse; */
+    height: 515px;
+    width: 280px;
+    position: relative;
+    padding-top: 15px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.item-8:hover .detail-8 {
+    top: -67px;
+}
+.cshirts {
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+
+.cshirts img {
+    height: 350px;
+    width: 280px;
+}
+
+.detail-8 {
+    background-color: #fff;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+.word-8{
+    height: 80px;
+    text-align: center;
+}
+.gap {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: hind, sans-serif;
+    line-height: 19px;
+}
+.gap:hover {
+    color: #2879fe;
+}
+.pre{
+    font: 14px hind,sans-serif; 
+    color: #191919; 
+    text-align: center; 
+    font-weight: 400; 
+    line-height: 22px; 
+    text-decoration: none;
+}
+.pre:hover{
+    color: #2879fe;
+}
+.buttons-8{ 
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 280px;
+    padding-top:3px ; 
+     
+} 
+.cs {
+    display: fixed;
+    border:1px;
+    background-image: url(images/cshirt.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.cs:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;   
+}
+.cs1 {
+    border:1px;
+    background-image: url(images/cshirt1.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.cs1:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;    
+}
+.cs2 {
+    border:1px;
+    background-image: url(images/cshirt2.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.cs2:hover{
+    border: 1px solid #2879fe;
+    border-radius: 6px;  
+}
+.cart-8{
     border: none;
     border-radius: 6px;
     background-color: #2879fe;
