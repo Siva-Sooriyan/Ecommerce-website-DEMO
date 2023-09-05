@@ -1602,3 +1602,138 @@ nav ul li:hover .sub-menu-7 ul li {
     margin-top: 10px;
     padding:3px 16px 9px;
 }
+/* NEW ARRIVAL */
+.autumn{
+    /* background-color:red; */
+    height: 410px;
+    width: 480px;
+    margin-left: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.new-arrivals{
+    height: 410px;
+    width: 480px;
+    background-image: url(images/arrivals.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 1s;
+}
+.new-arrivals:hover{
+    transform: scale(1.1);
+}
+.arr-img{
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    position:absolute;
+    height: 110px;
+    width: 226px;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+.arr-img:hover{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.autumn:hover .arr-img{
+   opacity: 0.9;
+   transition: all 0.2s;
+   height: 120px;
+    width: 236px;
+}
+/* STREETSTYLE */
+.new-coll{
+    /* background-color:red; */
+    height: 410px;
+    width: 480px;
+    margin-left: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.street{
+    height: 410px;
+    width: 480px;
+    background-image: url(images/freestyle.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 1s;
+}
+.street:hover{
+    transform: scale(1.1);
+}
+.ss-img{
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    position:absolute;
+    height: 110px;
+    width: 226px;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+.ss-img:hover{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.new-coll:hover .ss-img{
+   opacity: 0.9;
+   transition: all 0.2s;
+   height: 120px;
+    width: 236px;
+}
+/* SUMMER SALES */
+.get-up{
+    background-color:red;
+    height: 410px;
+    width: 480px;
+    margin-left: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.summer{
+    height: 410px;
+    width: 480px;
+    background-image: url(images/summer.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 1s;
+}
+.summer:hover{
+    transform: scale(1.1);
+}
+.gs-img{
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    position:absolute;
+    height: 130px;
+    width: 300px;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+.gs-img:hover{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.get-up:hover .gs-img{
+   opacity: 0.9;
+   transition: all 0.2s;
+   height: 140px;
+    width: 310px;
+}
