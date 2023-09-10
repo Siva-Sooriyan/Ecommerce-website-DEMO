@@ -1385,23 +1385,19 @@ nav ul li:hover .sub-menu-7 ul li {
     margin-right: 25px;
     overflow: hidden;
 }
-
 .item-7:hover .detail-7 {
     top: -67px;
 }
-
 .scarfs {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .scarfs img {
     height: 350px;
     width: 280px;
 }
-
 .detail-7 {
     background-color: #fff;
     width: 280px;
@@ -1737,3 +1733,144 @@ nav ul li:hover .sub-menu-7 ul li {
    height: 140px;
     width: 310px;
 }
+/* TRENDING */
+.trending {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.trending a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+    color: #191919;
+    margin-left: 50px;
+}
+.trending a:hover {
+    color: #2879fe;
+}
+.trending p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+    color: #191919;
+    margin: 2px 0 0 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+/* 8-CARDS */
+.trens{
+    /* background-color: aqua; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:relative;
+    height: 960px;
+    width: 1519px;
+    padding-top: 10px;
+}
+.t{
+    /* background-color: #f8353e;  */
+    display: flex; 
+    flex-direction: row; 
+    height: 480px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.item1{
+    /* background-color: blueviolet; */
+    height: 465px;
+    width: 280px;
+    position: relative;
+    padding-top: 15px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.item1:hover .detail1{
+    top:-80px;
+}
+.paints{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+.paints img{
+    height: 350px;
+    width: 280px;
+}
+.detail1 {
+    background-color:#ffffff;
+    width: 280px;
+    height: 150px;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+.word1{
+    height: 80px;
+    text-align: center;
+}
+.cart1{
+    border: none;
+    border-radius: 6px;
+    background-color: #2879fe;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    padding:3px 16px 9px;
+}
+.dresses{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+.dresses img{
+    height: 350px;
+    width: 280px;
+}
+.polos{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+.polos img{
+    height: 350px;
+    width: 280px;
+}
+.t1{
+    /* background-color:chocolate; */
+    display: flex; 
+    flex-direction: row; 
+    height: 480px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.sandal{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+.sandal img{
+    height: 350px;
+    width: 280px;
+}
+.relaxed{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+}
+.relaxed img{
+    height: 350px;
+    width: 280px;
+}
+
