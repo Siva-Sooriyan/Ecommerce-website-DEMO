@@ -839,42 +839,15 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* JURKINS */
-.item-2 {
-    /* background-color:#2879fe; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-.item-2:hover .detail-2 {
-    top: -67px;
-}
-
 .jurkins {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .jurkins img {
     height: 350px;
     width: 280px;
-}
-
-.detail-2 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-2{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -899,7 +872,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .pre:hover{
     color: #2879fe;
 }
-
 .buttons-2{
     text-align: center;
     display: block;
@@ -920,7 +892,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;   
 }
-
 .hod-2 {
     border:1px;
     background-image: url(images/grey\ jurkin.png);
@@ -943,43 +914,15 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* SHIRTS */
-.item-3 {
-    /* background-color:aqua; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-
-.item-3:hover .detail-3 {
-    top: -67px;
-}
-
 .shirts {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .shirts img {
     height: 350px;
     width: 280px;
-}
-
-.detail-3 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-3{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -1004,7 +947,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .pre:hover{
     color: #2879fe;
 }
-
 .buttons-3{
     text-align: center;
     display: block;
@@ -1047,43 +989,15 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* TSHIRT */
-.item-4 {
-    /* background-color:aquamarine; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-
-.item-4:hover .detail-4 {
-    top: -67px;
-}
-
 .tshirts {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .tshirts img {
     height: 350px;
     width: 280px;
-}
-
-.detail-4 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-4{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -1159,43 +1073,15 @@ nav ul li:hover .sub-menu-7 ul li {
     flex-wrap: wrap;
 }
 /* SLIM SHIRT */
-.item-5 {
-    /* background-color:aquamarine; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    overflow: hidden;
-    margin-right: 25px;
-}
-
-.item-5:hover .detail-5 {
-    top: -67px;
-}
-
 .slim {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .slim img {
     height: 350px;
     width: 280px;
-}
-
-.detail-5 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-5{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -1262,43 +1148,15 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* SNEAKERS */
-.item-6 {
-    /* background-color:#f8353e; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-
-.item-6:hover .detail-6 {
-    top: -67px;
-}
-
 .sneakers {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .sneakers img {
     height: 350px;
     width: 280px;
-}
-
-.detail-6 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-6{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -1376,18 +1234,6 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* SCARF */
-.item-7 {
-    /* background-color:bisque; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-.item-7:hover .detail-7 {
-    top: -67px;
-}
 .scarfs {
     height: 350px;
     width: 280px;
@@ -1397,18 +1243,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .scarfs img {
     height: 350px;
     width: 280px;
-}
-.detail-7 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
-}
-.word-7{
-    height: 80px;
-    text-align: center;
 }
 .gap {
     font-size: 12px;
@@ -1486,38 +1320,15 @@ nav ul li:hover .sub-menu-7 ul li {
     padding:3px 16px 9px;
 }
 /* COTTON SHIRT */
-.item-8 {
-    /* background-color:chartreuse; */
-    height: 515px;
-    width: 280px;
-    position: relative;
-    padding-top: 15px;
-    margin-right: 25px;
-    overflow: hidden;
-}
-
-.item-8:hover .detail-8 {
-    top: -67px;
-}
 .cshirts {
     height: 350px;
     width: 280px;
     position: relative;
     z-index: 0;
 }
-
 .cshirts img {
     height: 350px;
     width: 280px;
-}
-
-.detail-8 {
-    background-color: #fff;
-    width: 280px;
-    height: 200px;
-    position: relative;
-    margin-top: 15px;
-    z-index: 1;
 }
 .word-8{
     height: 80px;
@@ -1873,4 +1684,52 @@ nav ul li:hover .sub-menu-7 ul li {
     height: 350px;
     width: 280px;
 }
+/* HOVERING ICONS */
+.svg{
+    height: 15px;
+}
+.eye{
+display: none;
+}
+.item-1:hover .eye{
+    position: absolute;
+    z-index: 2; 
+    display: flex;
+    flex-direction: column;
+    left: 220px;   
+}
+.compare{
+    
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 6px;
+
+}
+.compare:hover {
+    background-color: #2879fe;
+    color: #fff;
+}
+.compare:hover .iye{
+    
+    color: #fff;
+}
+.iye{
+    color: #191919;
+}
+.item1:hover .eye{
+    position: absolute;
+    z-index: 2; 
+    display: flex;
+    flex-direction: column;
+    left: 220px;   
+}
+
+
 
