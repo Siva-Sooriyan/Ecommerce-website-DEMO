@@ -20,6 +20,7 @@
     z-index: 5;
     cursor: pointer;
 }
+
 #new {
     font-weight: 500;
     font-size: 14px;
@@ -27,9 +28,10 @@
     line-height: 2;
     text-decoration: none;
     top: 235px;
-    background-color:#08da97;
+    background-color: #08da97;
 }
-#new:hover{
+
+#new:hover {
     width: 150px;
 }
 
@@ -42,12 +44,14 @@
     top: 275px;
     background-color: #2879fe;
 }
-.ic{
+
+.ic {
     align-items: center;
     height: 15px;
     width: 15px;
 }
-#video:hover{
+
+#video:hover {
     width: 185px;
 }
 
@@ -60,7 +64,8 @@
     top: 315px;
     background-color: #2879fe;
 }
-#box:hover{
+
+#box:hover {
     width: 185px;
 }
 
@@ -73,9 +78,11 @@
     top: 355px;
     background-color: #2879fe;
 }
-#rtl:hover{
+
+#rtl:hover {
     width: 185px;
 }
+
 #opt {
     text-decoration: none;
     font-weight: 500;
@@ -85,22 +92,26 @@
     top: 395px;
     background-color: #2879fe;
 }
-#opt:hover{
+
+#opt:hover {
     width: 305px;
 }
+
 #Colors {
     top: 435px;
     background-image: url(images/colorful-but.png);
     background-repeat: no-repeat;
     display: flex;
-    overflow:hidden;
+    overflow: hidden;
     text-decoration: none;
 }
-#Colors:hover{
+
+#Colors:hover {
     background-color: black;
     background-image: none;
     width: 370px;
-}   
+}
+
 .hello-text {
     font-family: "Hind", sans-serif;
     font-weight: 600;
@@ -109,6 +120,7 @@
     opacity: 0;
     transition: opacity 0.3s;
 }
+
 #Colors:hover #Colors {
     opacity: 0;
 
@@ -117,23 +129,28 @@
 #Colors:hover .hello-text {
     opacity: 1;
 }
-.color-1{
+
+.color-1 {
     height: 20px;
     width: 20px;
-    background-color:#2879fe;;
+    background-color: #2879fe;
+    ;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
 }
-.color-2{
+
+.color-2 {
     height: 20px;
     width: 20px;
-    background-color:#08da97;;
+    background-color: #08da97;
+    ;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
 }
-.color-3{
+
+.color-3 {
     height: 20px;
     width: 20px;
     background-color: #8cc34b;
@@ -141,77 +158,90 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.color-4{
+
+.color-4 {
     height: 20px;
     width: 20px;
-    background-color:#ff9801;
+    background-color: #ff9801;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
 }
-.color-5{
+
+.color-5 {
     height: 20px;
     width: 20px;
-    background-color:#fe5722;
+    background-color: #fe5722;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
 }
-.color-6{
+
+.color-6 {
     height: 20px;
     width: 20px;
-    background-color:#ed2114;
+    background-color: #ed2114;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
-} 
-.color-7{
+}
+
+.color-7 {
     height: 20px;
     width: 20px;
-    background-color:#ea1e63;
+    background-color: #ea1e63;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
-} 
-.color-8{
+}
+
+.color-8 {
     height: 20px;
     width: 20px;
     background-color: #9c28b1;
     margin-right: 7px;
     border-radius: 50%;
     cursor: pointer;
-} 
-.color-1:hover{
-    transition: 0.2s;
-    transform:scale(1.25);
 }
-.color-2:hover{
+
+.color-1:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-3:hover{
+
+.color-2:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-4:hover{
+
+.color-3:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-5:hover{
+
+.color-4:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-6:hover{
+
+.color-5:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-7:hover{
+
+.color-6:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
-.color-8:hover{
+
+.color-7:hover {
     transition: 0.2s;
-    transform:scale(1.25);
+    transform: scale(1.25);
+}
+
+.color-8:hover {
+    transition: 0.2s;
+    transform: scale(1.25);
 }
 
 /* navigation bar */
@@ -257,6 +287,79 @@ nav ul li a:hover {
 }
 
 /* dropdown menu - HOME */
+.sub-menu-0 {
+    display: none;
+}
+.wt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.adpc{
+    height: 640px;
+    width: 1100px;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.ad{ 
+    background-image: url(images/pcss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155px;
+    width: 530px;
+}
+.pc{
+    
+    background-image: url(images/ups.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155px;
+    width: 530px;
+}
+nav ul li:hover .sub-menu-0 {
+    display:grid;
+    flex-direction:row;
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+    padding-top: 25px;
+    width: 1180px;
+    height: 690px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    margin-left: -120px;
+}
+nav ul li:hover .sub-menu-0 ul li a {
+    display: block;
+    padding: 2px;
+    font-family: 'Hind', sans-serif;
+    color: #777777;
+    text-transform: none;
+}
+nav ul li:hover .sub-menu-0 ul li a:hover {
+    color: #2879fe;
+}
+nav ul li:hover .sub-menu-0 ul li {
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-right: 23px;
+    padding-bottom: 1px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.pcss{
+    background-color:#08da97;
+    background-image: url(images/pcss.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 600px;
+    
+}
 /* dropdown menu - SHOP */
 .sub-menu-1 {
     display: none;
@@ -264,13 +367,14 @@ nav ul li a:hover {
 
 nav ul li:hover .sub-menu-1 {
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     padding: 10px;
     padding-top: 25px;
     width: 1150px;
     height: 300px;
     background: rgb(255, 255, 255);
-    z-index: 1;
+    z-index: 3;
     margin-left: -200px;
 }
 
@@ -321,7 +425,7 @@ nav ul li:hover .sub-menu-2 {
     height: 250px;
     width: 280px;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 3;
     margin-left: -45px;
 }
 
@@ -361,7 +465,7 @@ nav ul li:hover .sub-menu-3 {
     height: 400px;
     width: 280px;
     background-color: #fff;
-    z-index: 1;
+    z-index: 3;
     margin-left: -45px;
     box-shadow: #777777;
 }
@@ -402,7 +506,7 @@ nav ul li:hover .sub-menu-4 {
     height: 310px;
     width: 280px;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 3;
 }
 
 nav ul li:hover .sub-menu-4 ul li a {
@@ -439,7 +543,7 @@ nav ul li:hover .sub-menu-7 {
     height: 125px;
     width: 280px;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 3;
     margin-left: -45px;
 }
 
