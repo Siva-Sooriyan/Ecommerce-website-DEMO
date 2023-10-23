@@ -255,7 +255,6 @@
 
 nav ul {
     float: right;
-
 }
 
 nav ul li {
@@ -268,11 +267,11 @@ nav ul li a {
     display: inline;
     font-family: 'Hind', sans-serif;
     font-size: 14px;
-    line-height: 1.2;
-    color: #777777;
+    line-height: 1.1;
+    color: #191919;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 8px 12px;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -350,15 +349,6 @@ nav ul li:hover .sub-menu-0 ul li {
     padding-bottom: 1px;
     background-color: transparent;
     box-sizing: border-box;
-}
-.pcss{
-    background-color:#08da97;
-    background-image: url(images/pcss.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
-    width: 600px;
-    
 }
 /* dropdown menu - SHOP */
 .sub-menu-1 {
@@ -569,6 +559,42 @@ nav ul li:hover .sub-menu-7 ul li {
     padding-bottom: 1px;
     background-color: transparent;
     box-sizing: border-box;
+}
+.ti{
+   margin-left: 360px; 
+}
+/* SEARCH ICON */
+.search-icon{
+    height: 18px;
+    width: 15px;
+    fill: #191919;
+}
+.search-icon:hover{
+    fill: #2879fe;
+}
+.bag{
+   height: 20px;
+   width: 18px;
+   fill: #191919;
+}
+.bag:hover{
+    fill: #2879fe;
+}
+.person{
+    height: 19px;
+    width: 19px;
+    fill: #191919;
+}
+.person:hover{
+    fill: #2879fe;
+}
+.slider{
+    height: 18px;
+    width: 19px;
+    fill: #191919;
+}
+.slider:hover{
+    fill: #2879fe;
 }
 
 /* CAROUSEL */
