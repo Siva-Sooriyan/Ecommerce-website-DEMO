@@ -289,36 +289,41 @@ nav ul li a:hover {
 .sub-menu-0 {
     display: none;
 }
-.wt{
+
+.wt {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.adpc{
+
+.adpc {
     height: 640px;
     width: 1100px;
     display: flex;
     margin-left: 25px;
     margin-top: 25px;
 }
-.ad{ 
+
+.ad {
     background-image: url(images/pcss.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 155px;
     width: 530px;
 }
-.pc{
-    
+
+.pc {
+
     background-image: url(images/ups.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 155px;
     width: 530px;
 }
+
 nav ul li:hover .sub-menu-0 {
-    display:grid;
-    flex-direction:row;
+    display: grid;
+    flex-direction: row;
     position: absolute;
     overflow: auto;
     padding: 10px;
@@ -329,6 +334,7 @@ nav ul li:hover .sub-menu-0 {
     z-index: 3;
     margin-left: -120px;
 }
+
 nav ul li:hover .sub-menu-0 ul li a {
     display: block;
     padding: 2px;
@@ -336,9 +342,11 @@ nav ul li:hover .sub-menu-0 ul li a {
     color: #777777;
     text-transform: none;
 }
+
 nav ul li:hover .sub-menu-0 ul li a:hover {
     color: #2879fe;
 }
+
 nav ul li:hover .sub-menu-0 ul li {
     font-size: 14px;
     line-height: 22px;
@@ -350,6 +358,7 @@ nav ul li:hover .sub-menu-0 ul li {
     background-color: transparent;
     box-sizing: border-box;
 }
+
 /* dropdown menu - SHOP */
 .sub-menu-1 {
     display: none;
@@ -521,6 +530,54 @@ nav ul li:hover .sub-menu-4 ul li {
 
 /* dropdown menu - WOMEN */
 /* deopdown menu - MEN */
+.sub-menu-6 {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-6 {
+    position: absolute;
+    display: flex;
+    padding-top: 25px;
+    height: 425px;
+    width: 1180px;
+    background-color: #ffffff;
+    z-index: 3;
+    margin-left: -600px;
+}
+
+nav ul li:hover .sub-menu-6 ul li a {
+    display: block;
+    padding: 2px;
+    font-family: 'Hind', sans-serif;
+    color: #777777;
+    text-transform: none;
+}
+
+nav ul li:hover .sub-menu-6 ul li a:hover {
+    color: #2879fe;
+}
+
+nav ul li:hover .sub-menu-6 ul li {
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: -60px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+/* 
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    transform:rotate(90deg);
+} */
 /* dropdown menu - BUY THEMES */
 .sub-menu-7 {
     display: none;
@@ -560,40 +617,49 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: transparent;
     box-sizing: border-box;
 }
-.ti{
-   margin-left: 360px; 
+
+.ti {
+    margin-left: 360px;
 }
+
 /* SEARCH ICON */
-.search-icon{
+.search-icon {
     height: 18px;
     width: 15px;
     fill: #191919;
 }
-.search-icon:hover{
+
+.search-icon:hover {
     fill: #2879fe;
 }
-.bag{
-   height: 20px;
-   width: 18px;
-   fill: #191919;
+
+.bag {
+    height: 20px;
+    width: 18px;
+    fill: #191919;
 }
-.bag:hover{
+
+.bag:hover {
     fill: #2879fe;
 }
-.person{
+
+.person {
     height: 19px;
     width: 19px;
     fill: #191919;
 }
-.person:hover{
+
+.person:hover {
     fill: #2879fe;
 }
-.slider{
+
+.slider {
     height: 18px;
     width: 19px;
     fill: #191919;
 }
-.slider:hover{
+
+.slider:hover {
     fill: #2879fe;
 }
 
@@ -602,6 +668,7 @@ nav ul li:hover .sub-menu-7 ul li {
     height: 695px;
 }
 
+/* CATEGORY */
 #category {
     background-color: white;
     margin-top: 5px;
@@ -1032,6 +1099,12 @@ nav ul li:hover .sub-menu-7 ul li {
     text-transform: uppercase;
 }
 
+.star {
+    height: 15px;
+    width: 13px;
+    fill: #ffb503;
+}
+
 .categories {
     display: flex;
     flex-wrap: wrap;
@@ -1055,7 +1128,7 @@ nav ul li:hover .sub-menu-7 ul li {
 /* JEANS */
 .item-1 {
     /* background-color: blueviolet; */
-    height: 515px;
+    height: 525px;
     width: 280px;
     position: relative;
     padding-top: 15px;
@@ -1064,7 +1137,7 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .item-1:hover .detail-1 {
-    top: -67px;
+    top: -85px;
 }
 
 .jeans {
@@ -1080,9 +1153,9 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .detail-1 {
-    background-color: #fff;
+    background-color: white;
     width: 280px;
-    height: 200px;
+    height: 205px;
     position: relative;
     margin-top: 15px;
     z-index: 1;
@@ -1125,6 +1198,7 @@ nav ul li:hover .sub-menu-7 ul li {
     display: block;
     position: absolute;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1245,11 +1319,13 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .buttons-2 {
+    /* background-color:#08da97; */
     text-align: center;
     display: block;
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1337,6 +1413,7 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1424,6 +1501,7 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1520,6 +1598,7 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1607,6 +1686,7 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
 
 }
 
@@ -1707,6 +1787,8 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
+
 
 }
 
@@ -1812,6 +1894,8 @@ nav ul li:hover .sub-menu-7 ul li {
     position: absolute;
     width: 280px;
     padding-top: 3px;
+    margin-top: 10px;
+
 
 }
 
@@ -2065,17 +2149,17 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .t {
-    /* background-color: #f8353e;  */
+    /* background-color: #f8353e; */
     display: flex;
     flex-direction: row;
-    height: 480px;
+    height: 500px;
     margin-left: 50px;
     flex-wrap: wrap;
 }
 
 .item1 {
     /* background-color: blueviolet; */
-    height: 465px;
+    height: 475px;
     width: 280px;
     position: relative;
     padding-top: 15px;
@@ -2102,7 +2186,7 @@ nav ul li:hover .sub-menu-7 ul li {
 .detail1 {
     background-color: #ffffff;
     width: 280px;
-    height: 150px;
+    height: 160px;
     position: relative;
     margin-top: 15px;
     z-index: 1;
@@ -2120,7 +2204,6 @@ nav ul li:hover .sub-menu-7 ul li {
     color: #fff;
     width: 140px;
     height: 45px;
-    margin-top: 10px;
     padding: 3px 16px 9px;
 }
 
