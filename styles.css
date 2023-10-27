@@ -568,16 +568,26 @@ nav ul li:hover .sub-menu-6 ul li {
     background-color: transparent;
     box-sizing: border-box;
 }
-
-/* 
-.triangle{
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 10px solid black;
-    transform:rotate(90deg);
-} */
+.mm{
+    background-image: url(images/mmsale.png);
+    height: 345px;
+    width: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+.mms{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+.mms:hover{
+    border: none;
+}
 /* dropdown menu - BUY THEMES */
 .sub-menu-7 {
     display: none;
@@ -2387,13 +2397,7 @@ nav ul li:hover .sub-menu-7 ul li {
     display: flex;
     flex-direction: row;
 }
-
 .ig {
     height: 250px;
-    width: 253px;
-}
-
-.insta_gallery a:hover {
-    transition: all;
-    color: #777777;
+    width: 253px;  
 }
