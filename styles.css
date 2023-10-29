@@ -529,6 +529,40 @@ nav ul li:hover .sub-menu-4 ul li {
 }
 
 /* dropdown menu - WOMEN */
+.sub-menu-5{
+    display: none;
+}
+nav ul li:hover .sub-menu-5 {
+    position: absolute;
+    display: flex;
+    padding-top: 25px;
+    height: 425px;
+    width: 1180px;
+    background-color: #ffffff;
+    z-index: 3;
+    margin-left: -500px;
+}
+nav ul li:hover .sub-menu-5 ul li a {
+    display: block;
+    padding: 2px;
+    font-family: 'Hind', sans-serif;
+    color: #777777;
+    text-transform: none;
+}
+nav ul li:hover .sub-menu-5 ul li a:hover {
+    color: #2879fe;
+}
+nav ul li:hover .sub-menu-5 ul li {
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 60px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
 /* deopdown menu - MEN */
 .sub-menu-6 {
     display: none;
@@ -629,7 +663,7 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .ti {
-    margin-left: 360px;
+    margin-left: 335px;
 }
 
 /* SEARCH ICON */
@@ -652,7 +686,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .bag:hover {
     fill: #2879fe;
 }
-
 .person {
     height: 19px;
     width: 19px;
@@ -1282,10 +1315,15 @@ nav ul li:hover .sub-menu-7 ul li {
     border-radius: 6px;
     background-color: #2879fe;
     color: #fff;
-    width: 140px;
+    width: 143px;
     height: 45px;
     margin-top: 10px;
-    padding: 3px 16px 9px;
+   
+}
+.adc{
+    height: 30px;
+    width: 20px;
+    fill: white;
 }
 
 /* JURKINS */
@@ -1365,18 +1403,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
-
-.cart-2 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
-}
-
 /* SHIRTS */
 .shirts {
     height: 350px;
@@ -1453,18 +1479,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
-
-.cart-3 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
-}
-
 /* TSHIRT */
 .tshirts {
     height: 350px;
@@ -1541,18 +1555,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
-
-.cart-4 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
-}
-
 .sfc {
     /* background-color:chocolate; */
     display: flex;
@@ -1637,17 +1639,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .slim-2:hover {
     border: 1px solid #2879fe;
     border-radius: 6px;
-}
-
-.cart-5 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
 }
 
 /* SNEAKERS */
@@ -1739,18 +1730,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
-
-.cart-6 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
-}
-
 /* SCARF */
 .scarfs {
     height: 350px;
@@ -1841,18 +1820,6 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
-
-.cart-7 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
-}
-
 /* COTTON SHIRT */
 .cshirts {
     height: 350px;
@@ -1947,17 +1914,6 @@ nav ul li:hover .sub-menu-7 ul li {
 .cs2:hover {
     border: 1px solid #2879fe;
     border-radius: 6px;
-}
-
-.cart-8 {
-    border: none;
-    border-radius: 6px;
-    background-color: #2879fe;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    margin-top: 10px;
-    padding: 3px 16px 9px;
 }
 
 /* NEW ARRIVAL */
@@ -2212,9 +2168,8 @@ nav ul li:hover .sub-menu-7 ul li {
     border-radius: 6px;
     background-color: #2879fe;
     color: #fff;
-    width: 140px;
+    width: 143px;
     height: 45px;
-    padding: 3px 16px 9px;
 }
 
 .dresses {
