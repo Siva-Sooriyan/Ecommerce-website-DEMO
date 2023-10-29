@@ -333,6 +333,7 @@ nav ul li:hover .sub-menu-0 {
     background-color: rgb(255, 255, 255);
     z-index: 3;
     margin-left: -120px;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-0 ul li a {
@@ -374,7 +375,8 @@ nav ul li:hover .sub-menu-1 {
     height: 300px;
     background: rgb(255, 255, 255);
     z-index: 3;
-    margin-left: -200px;
+    margin-top: 10px;
+    margin-left: -190px;
 }
 
 nav ul li:hover .sub-menu-1 ul li a {
@@ -426,6 +428,7 @@ nav ul li:hover .sub-menu-2 {
     background-color: #ffffff;
     z-index: 3;
     margin-left: -45px;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-2 ul li a {
@@ -466,7 +469,7 @@ nav ul li:hover .sub-menu-3 {
     background-color: #fff;
     z-index: 3;
     margin-left: -45px;
-    box-shadow: #777777;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-3 ul li a {
@@ -506,6 +509,7 @@ nav ul li:hover .sub-menu-4 {
     width: 280px;
     background-color: #ffffff;
     z-index: 3;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-4 ul li a {
@@ -529,19 +533,53 @@ nav ul li:hover .sub-menu-4 ul li {
 }
 
 /* dropdown menu - WOMEN */
-.sub-menu-5{
+.sub-menu-5 {
     display: none;
 }
-nav ul li:hover .sub-menu-5 {
-    position: absolute;
+
+.ct {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tpc {
+    display: flex;
+    height: 125px;
+    width: 1100px;
+    margin-left: 25px;
+}
+
+.tp {
+    height: 125px;
+    width: 540px;
+    background-image: url(images/s2na.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tc {
+    height: 125px;
+    width: 540px;
+    background-image: url(images/csgut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav ul li:hover .sub-menu-5 {
+    display: grid;
+    flex-direction: row;
+    position: absolute;
     padding-top: 25px;
-    height: 425px;
+    height: 500px;
     width: 1180px;
     background-color: #ffffff;
     z-index: 3;
     margin-left: -500px;
+    margin-top: 10px;
 }
+
 nav ul li:hover .sub-menu-5 ul li a {
     display: block;
     padding: 2px;
@@ -549,9 +587,11 @@ nav ul li:hover .sub-menu-5 ul li a {
     color: #777777;
     text-transform: none;
 }
+
 nav ul li:hover .sub-menu-5 ul li a:hover {
     color: #2879fe;
 }
+
 nav ul li:hover .sub-menu-5 ul li {
     font-size: 14px;
     line-height: 22px;
@@ -559,10 +599,11 @@ nav ul li:hover .sub-menu-5 ul li {
     position: relative;
     padding-top: 1px;
     padding-bottom: 1px;
-    padding-right: 60px;
+    padding-right: 105px;
     background-color: transparent;
     box-sizing: border-box;
 }
+
 /* deopdown menu - MEN */
 .sub-menu-6 {
     display: none;
@@ -577,6 +618,7 @@ nav ul li:hover .sub-menu-6 {
     background-color: #ffffff;
     z-index: 3;
     margin-left: -600px;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-6 ul li a {
@@ -602,7 +644,8 @@ nav ul li:hover .sub-menu-6 ul li {
     background-color: transparent;
     box-sizing: border-box;
 }
-.mm{
+
+.mm {
     background-image: url(images/mmsale.png);
     height: 345px;
     width: 260px;
@@ -611,7 +654,8 @@ nav ul li:hover .sub-menu-6 ul li {
     padding-left: 25px;
     padding-top: 35px;
 }
-.mms{
+
+.mms {
     font-size: 14px;
     line-height: 16px;
     font-weight: 500;
@@ -619,9 +663,11 @@ nav ul li:hover .sub-menu-6 ul li {
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
 }
-.mms:hover{
+
+.mms:hover {
     border: none;
 }
+
 /* dropdown menu - BUY THEMES */
 .sub-menu-7 {
     display: none;
@@ -636,6 +682,7 @@ nav ul li:hover .sub-menu-7 {
     background-color: #ffffff;
     z-index: 3;
     margin-left: -45px;
+    margin-top: 10px;
 }
 
 nav ul li:hover .sub-menu-7 ul li a {
@@ -686,6 +733,7 @@ nav ul li:hover .sub-menu-7 ul li {
 .bag:hover {
     fill: #2879fe;
 }
+
 .person {
     height: 19px;
     width: 19px;
@@ -1318,9 +1366,10 @@ nav ul li:hover .sub-menu-7 ul li {
     width: 143px;
     height: 45px;
     margin-top: 10px;
-   
+
 }
-.adc{
+
+.adc {
     height: 30px;
     width: 20px;
     fill: white;
@@ -1367,7 +1416,6 @@ nav ul li:hover .sub-menu-7 ul li {
 }
 
 .buttons-2 {
-    /* background-color:#08da97; */
     text-align: center;
     display: block;
     position: absolute;
@@ -1403,6 +1451,7 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
+
 /* SHIRTS */
 .shirts {
     height: 350px;
@@ -1479,6 +1528,7 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
+
 /* TSHIRT */
 .tshirts {
     height: 350px;
@@ -1555,6 +1605,7 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
+
 .sfc {
     /* background-color:chocolate; */
     display: flex;
@@ -1730,6 +1781,7 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
+
 /* SCARF */
 .scarfs {
     height: 350px;
@@ -1820,6 +1872,7 @@ nav ul li:hover .sub-menu-7 ul li {
     border: 1px solid #2879fe;
     border-radius: 6px;
 }
+
 /* COTTON SHIRT */
 .cshirts {
     height: 350px;
@@ -2352,7 +2405,8 @@ nav ul li:hover .sub-menu-7 ul li {
     display: flex;
     flex-direction: row;
 }
+
 .ig {
     height: 250px;
-    width: 253px;  
+    width: 253px;
 }
