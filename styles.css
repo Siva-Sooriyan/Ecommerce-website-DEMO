@@ -2368,7 +2368,107 @@ nav ul li:hover .sub-menu-7 ul li {
     padding: 0;
     text-transform: uppercase;
 }
-
+/* THREE HOVERING CARDS */
+.lb{
+    /* background-color: aquamarine; */
+    height: 400px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+}
+.lwp{
+    display: relative;
+    height: 380px;
+    width: 380px;
+    /* background-color:#777777; */
+    margin-right: 25px;
+}
+.vacay{
+    position: absolute;
+    width: 380px;
+    height: 270px;
+    background-image: url(images/ladies.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+}
+.count{
+    position: absolute;
+    width: 380px;
+    height: 270px;
+    background-image: url(images/countdown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4; 
+}
+.promo{
+    position: absolute;
+    width: 380px;
+    height: 270px;
+    background-image: url(images/promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4; 
+}
+.hl{
+    position: absolute;
+    height:180px;
+    width: 335px;
+    background-color: #ffffff;
+    z-index: 5;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.hl:hover{
+    transform: scale(1.05);  
+    transition: all 0.5s; 
+}
+.tag{
+    display:flex;
+    padding: 2px 5px;
+    color: #2879fe;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;   
+    margin-top: 10px;
+}
+.tag:hover{
+    color: #191919;
+}
+.title{
+    display:flex;
+    padding: 2px 5px;
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;   
+}
+.cmt{
+    display: flex;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #777777;
+    text-align: center;
+    margin: 16px 0 0 0px;
+}
+.cust-cmt{
+    display: flex;
+    font-size: 12px;
+    color: #999999;
+    justify-content: center;
+    margin-top: 15px;
+}
+.name{
+    color: #191919;
+    text-decoration: none;  
+}
+.name:hover{
+    text-decoration: underline;
+    text-decoration-color:#191919;
+}
 /* INSTAGRAM */
 .insta {
     display: block;
@@ -2405,8 +2505,253 @@ nav ul li:hover .sub-menu-7 ul li {
     display: flex;
     flex-direction: row;
 }
-
-.ig {
+.sprite {
     height: 250px;
     width: 253px;
+    position: relative;
+    background-image: url(images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sprite::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+.sprite::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+.sprite:hover::before {
+    opacity: 1;
+}
+.sprite:hover::after {
+    opacity: 1;
+}
+
+.bw {
+    height: 250px;
+    width: 253px;
+    position: relative;
+    background-image: url(images/b&w.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bw::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+
+.bw::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+
+.bw:hover::before {
+    opacity: 1;
+}
+.bw:hover::after {
+    opacity: 1;
+}
+.polas {
+    height: 250px;
+    width: 253px;
+    position: relative;
+    background-image: url(images/polas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.polas::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+.polas::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+.polas:hover::before {
+    opacity: 1;
+}
+.polas:hover::after {
+    opacity: 1;
+}
+.fila {
+    height: 250px;
+    width: 253px;
+    position: relative;
+    background-image: url(images/fila.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fila::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+.fila::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+.fila:hover::before {
+    opacity: 1;
+}
+.fila:hover::after {
+    opacity: 1;
+}
+.redd {
+    height: 250px;
+    width: 253px;
+    position: relative;
+    background-image: url(images/redd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.redd::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+.redd::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+.redd:hover::before {
+    opacity: 1;
+}
+.redd:hover::after {
+    opacity: 1;
+}
+.model {
+    height: 250px;
+    width: 253px;
+    position: relative;
+    background-image: url(images/model.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.model::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .2s linear;
+}
+.model::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color:transparent;
+    color: rgba(0, 0, 0, 0.7);
+    background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s linear;
+}
+.model:hover::before {
+    opacity: 1;
+}
+.model:hover::after {
+    opacity: 1;
 }
