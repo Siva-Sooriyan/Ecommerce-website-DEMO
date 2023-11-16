@@ -2761,7 +2761,6 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: #2879fe;
     height: 60px;
     width: 100%;
-    /* justify-content:space-around; */
     align-items: center;
 }
 .footer-col h4{
@@ -2770,6 +2769,7 @@ nav ul li:hover .sub-menu-7 ul li {
     font-weight: 500;
     color: #ffffff;
     margin-right: 106px;
+    margin-left: 175px;
 }
 .email{
     border: none;
@@ -2801,18 +2801,53 @@ nav ul li:hover .sub-menu-7 ul li {
     flex-wrap: wrap;
     height: 340px;
     width: 100%;
-    background-color: paleturquoise;
+    background-color:#f7f8fa;
 }
 .footer ul li a{
     padding: 2px;
     font-family: 'Hind', sans-serif;
     color: #777777;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.footer ul li{
+    line-height: 30px;
+}
+.head{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #191919;
+    text-decoration: none;
 }
 .footer ul{
-    padding-left: 100px;
+    width: 330px;
 }
+.fot-1col{
+    margin-left: 140px;
+}
+.info-mail{
+    color: #2879fe;
+}
+.info-mail:hover{
+    color: #777777;
+}
+.social-media-icon{
+    display: flex;
+    margin-left: 175px;
 
+}
+.fa{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.fa:hover{
+    color:black
+}
 /* .iye-content{
     margin-left: -100px;
     display:none ;
