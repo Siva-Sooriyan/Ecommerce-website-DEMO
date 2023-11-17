@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    /* transition: all .2s; */
 }
 
 /* side-navigation */
@@ -2311,7 +2312,7 @@ nav ul li:hover .sub-menu-7 ul li {
     justify-content: center;
     cursor: pointer;
     margin: 6px;
-
+    position: relative;
 }
 
 .compare:hover {
@@ -2326,6 +2327,8 @@ nav ul li:hover .sub-menu-7 ul li {
 
 .iye {
     color: #191919;
+    /* position: absolute; */
+    /* right: 55px; */
 }
 
 .item1:hover .eye {
@@ -2368,8 +2371,9 @@ nav ul li:hover .sub-menu-7 ul li {
     padding: 0;
     text-transform: uppercase;
 }
+
 /* THREE HOVERING CARDS */
-.lb{
+.lb {
     /* background-color: aquamarine; */
     height: 400px;
     width: 1500px;
@@ -2377,14 +2381,16 @@ nav ul li:hover .sub-menu-7 ul li {
     align-items: center;
     padding-left: 160px;
 }
-.lwp{
+
+.lwp {
     display: relative;
     height: 380px;
     width: 380px;
     /* background-color:#777777; */
     margin-right: 25px;
 }
-.vacay{
+
+.vacay {
     position: absolute;
     width: 380px;
     height: 270px;
@@ -2393,27 +2399,30 @@ nav ul li:hover .sub-menu-7 ul li {
     background-size: cover;
     z-index: 4;
 }
-.count{
+
+.count {
     position: absolute;
     width: 380px;
     height: 270px;
     background-image: url(images/countdown.png);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 4; 
+    z-index: 4;
 }
-.promo{
+
+.promo {
     position: absolute;
     width: 380px;
     height: 270px;
     background-image: url(images/promo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 4; 
+    z-index: 4;
 }
-.hl{
+
+.hl {
     position: absolute;
-    height:180px;
+    height: 180px;
     width: 335px;
     background-color: #ffffff;
     z-index: 5;
@@ -2421,31 +2430,36 @@ nav ul li:hover .sub-menu-7 ul li {
     margin-left: 20px;
     border-radius: 5px;
 }
-.hl:hover{
-    transform: scale(1.05);  
-    transition: all 0.5s; 
+
+.hl:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
-.tag{
-    display:flex;
+
+.tag {
+    display: flex;
     padding: 2px 5px;
     color: #2879fe;
     text-transform: uppercase;
     text-decoration: none;
-    justify-content: center;   
+    justify-content: center;
     margin-top: 10px;
 }
-.tag:hover{
+
+.tag:hover {
     color: #191919;
 }
-.title{
-    display:flex;
+
+.title {
+    display: flex;
     padding: 2px 5px;
     color: #191919;
     text-transform: uppercase;
     text-decoration: none;
-    justify-content: center;   
+    justify-content: center;
 }
-.cmt{
+
+.cmt {
     display: flex;
     font-family: 'Hind', sans-serif;
     font-size: 14px;
@@ -2455,21 +2469,25 @@ nav ul li:hover .sub-menu-7 ul li {
     text-align: center;
     margin: 16px 0 0 0px;
 }
-.cust-cmt{
+
+.cust-cmt {
     display: flex;
     font-size: 12px;
     color: #999999;
     justify-content: center;
     margin-top: 15px;
 }
-.name{
+
+.name {
     color: #191919;
-    text-decoration: none;  
+    text-decoration: none;
 }
-.name:hover{
+
+.name:hover {
     text-decoration: underline;
-    text-decoration-color:#191919;
+    text-decoration-color: #191919;
 }
+
 /* INSTAGRAM */
 .insta {
     display: block;
@@ -2506,6 +2524,7 @@ nav ul li:hover .sub-menu-7 ul li {
     display: flex;
     flex-direction: row;
 }
+
 .sprite {
     height: 250px;
     width: 253px;
@@ -2514,6 +2533,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sprite::before {
     content: '';
     position: absolute;
@@ -2525,6 +2545,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: rgba(0, 0, 0, 0.6);
     transition: all .2s linear;
 }
+
 .sprite::after {
     content: ' ';
     position: absolute;
@@ -2534,16 +2555,18 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s linear;
 }
+
 .sprite:hover::before {
     opacity: 1;
 }
+
 .sprite:hover::after {
     opacity: 1;
 }
@@ -2578,7 +2601,7 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
@@ -2589,9 +2612,11 @@ nav ul li:hover .sub-menu-7 ul li {
 .bw:hover::before {
     opacity: 1;
 }
+
 .bw:hover::after {
     opacity: 1;
 }
+
 .polas {
     height: 250px;
     width: 253px;
@@ -2600,6 +2625,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .polas::before {
     content: '';
     position: absolute;
@@ -2611,6 +2637,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: rgba(0, 0, 0, 0.6);
     transition: all .2s linear;
 }
+
 .polas::after {
     content: ' ';
     position: absolute;
@@ -2620,19 +2647,22 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s linear;
 }
+
 .polas:hover::before {
     opacity: 1;
 }
+
 .polas:hover::after {
     opacity: 1;
 }
+
 .fila {
     height: 250px;
     width: 253px;
@@ -2641,6 +2671,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .fila::before {
     content: '';
     position: absolute;
@@ -2652,6 +2683,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: rgba(0, 0, 0, 0.6);
     transition: all .2s linear;
 }
+
 .fila::after {
     content: ' ';
     position: absolute;
@@ -2661,19 +2693,22 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s linear;
 }
+
 .fila:hover::before {
     opacity: 1;
 }
+
 .fila:hover::after {
     opacity: 1;
 }
+
 .redd {
     height: 250px;
     width: 253px;
@@ -2682,6 +2717,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .redd::before {
     content: '';
     position: absolute;
@@ -2693,6 +2729,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: rgba(0, 0, 0, 0.6);
     transition: all .2s linear;
 }
+
 .redd::after {
     content: ' ';
     position: absolute;
@@ -2702,19 +2739,22 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s linear;
 }
+
 .redd:hover::before {
     opacity: 1;
 }
+
 .redd:hover::after {
     opacity: 1;
 }
+
 .model {
     height: 250px;
     width: 253px;
@@ -2723,6 +2763,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .model::before {
     content: '';
     position: absolute;
@@ -2734,6 +2775,7 @@ nav ul li:hover .sub-menu-7 ul li {
     background-color: rgba(0, 0, 0, 0.6);
     transition: all .2s linear;
 }
+
 .model::after {
     content: ' ';
     position: absolute;
@@ -2743,27 +2785,31 @@ nav ul li:hover .sub-menu-7 ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color:transparent;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.7);
     background-image: url(images/instagram-2016-logo-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s linear;
 }
+
 .model:hover::before {
     opacity: 1;
 }
+
 .model:hover::after {
     opacity: 1;
 }
-.footer-col{
+
+.footer-col {
     display: flex;
     background-color: #2879fe;
     height: 60px;
     width: 100%;
     align-items: center;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
@@ -2771,18 +2817,20 @@ nav ul li:hover .sub-menu-7 ul li {
     margin-right: 106px;
     margin-left: 175px;
 }
-.email{
+
+.email {
     border: none;
     height: 40px;
     width: 500px;
     border-radius: 6px 0px 0px 6px;
 }
-.join{
+
+.join {
     border: none;
     height: 40px;
-    background-color:#303030;
+    background-color: #303030;
     color: #fff;
-    padding:10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-size: 14px;
     line-height: 1.0;
     font-weight: 400;
@@ -2791,19 +2839,23 @@ nav ul li:hover .sub-menu-7 ul li {
     text-align: center;
     border-radius: 0px 6px 6px 0px;
 }
-.join:hover{
+
+.join:hover {
     background-color: #191919;
     color: #fff;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 340px;
     width: 100%;
-    background-color:#f7f8fa;
+    background-color: #f7f8fa;
+    padding-top: 45px;
 }
-.footer ul li a{
+
+.footer ul li a {
     padding: 2px;
     font-family: 'Hind', sans-serif;
     color: #777777;
@@ -2812,10 +2864,12 @@ nav ul li:hover .sub-menu-7 ul li {
     font-weight: 300;
     line-height: 22px;
 }
-.footer ul li{
+
+.footer ul li {
     line-height: 30px;
 }
-.head{
+
+.head {
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
@@ -2823,37 +2877,138 @@ nav ul li:hover .sub-menu-7 ul li {
     color: #191919;
     text-decoration: none;
 }
-.footer ul{
+
+.footer ul {
     width: 330px;
 }
-.fot-1col{
+
+.fot-1col {
     margin-left: 140px;
 }
-.info-mail{
+
+.info-mail {
     color: #2879fe;
 }
-.info-mail:hover{
+
+.info-mail:hover {
     color: #777777;
 }
-.social-media-icon{
+
+.social-media-icon {
     display: flex;
     margin-left: 175px;
 
 }
-.fa{
+
+.fa {
     color: white;
     text-decoration: none;
     padding-right: 20px;
 }
-.fa:hover{
-    color:black
+
+.fa:hover {
+    color: black
 }
-/* .iye-content{
-    margin-left: -100px;
-    display:none ;
+/* QUICKVIEW HOVER */
+.iye-content {
+    position: absolute;
+    right: 85px;
+    width: 75px;
+    top: 10px;
+    color: #000000 !important;
+    display: none;
+    transition: all .2s linear;
+
+
 }
-.iye:hover .iye-content p{
-    display: block;
-    margin-left: -100px;
-    background-color: #08da97;
-} */
+.iye-content p {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 5px 2px 5px;
+    border-radius: 4px;
+    transition: all .2s linear;
+    font-size: 13px;
+}
+
+.quickview-icon {
+    position: relative;
+}
+
+.quickview-icon:hover .iye-content {
+    display: block !important;
+    right: 55px !important;
+}
+/* WISHLIST HOVER */
+.heart-content {
+    position: absolute;
+    right: 85px;
+    width: 100px;
+    top: 10px;
+    color: #000000 !important;
+    display: none;
+    transition: all .2s linear;
+
+
+}
+.heart-content p {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 5px 2px 5px;
+    border-radius: 4px;
+    transition: all .2s linear;
+    font-size: 13px;
+}
+
+.heart-icon {
+    position: relative;
+}
+
+.heart-icon:hover .heart-content {
+    display: block !important;
+    right: 55px !important;
+}
+/* COMPARE HOVER */
+.compare-content {
+    position: absolute;
+    right: 85px;
+    width: 110px;
+    top: 10px;
+    color: #000000 !important;
+    display: none;
+    transition: all .2s linear;
+
+
+}
+.compare-content p {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 5px 2px 5px;
+    border-radius: 4px;
+    transition: all .2s linear;
+    font-size: 13px;
+}
+
+.compare-icon {
+    position: relative;
+}
+
+.compare-icon:hover .compare-content {
+    display: block !important;
+    right: 55px !important;
+}
+.footer-end{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #08da97; */
+    align-content: center;
+    width: 100%;
+    height: 95px;
+}
+.copyright{
+   color: #888888;
+   font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-left: 10px;
+}
